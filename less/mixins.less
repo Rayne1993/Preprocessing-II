@@ -1,7 +1,7 @@
 // Mixins in here
-.custom-btn {
+.custom-btn(@justify, @button-bg) {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: @justify;
     height: 40px;
     width: 200px;
     background: @button-bg;
